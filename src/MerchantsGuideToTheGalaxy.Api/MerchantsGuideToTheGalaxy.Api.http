@@ -1,0 +1,16 @@
+@MerchantsGuideToTheGalaxy.Api_HostAddress = http://localhost:5282
+
+POST {{MerchantsGuideToTheGalaxy.Api_HostAddress}}/api/v1/conversor
+Content-Type: application/json
+Accept: application/json
+
+{
+  "dadosDeEntrada": "glob é I\nprok é V\npish é X\ntegj é L\nglob glob Prata é 34 Créditos\nglob prok Ouro é 57800 Créditos\npish pish Ferro é 3910 Créditos\nquanto é pish tegj glob glob ?\nquantos Créditos é glob prok Prata ?\nquantos Créditos é glob prok Ouro ?\nquantos Créditos é glob prok Ferro ?\nquanto de madeira uma marmota poderia roer se uma marmota pudesse roer madeira ?"
+}
+
+POST {{MerchantsGuideToTheGalaxy.Api_HostAddress}}/api/v1/conversor
+Content-Type: application/json
+
+{
+  "dadosDeEntrada": ""
+}

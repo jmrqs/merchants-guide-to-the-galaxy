@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="../README.md" />
+  </Folder>
+  <Project Path="../tests/MerchantsGuideToTheGalaxy.Tests/MerchantsGuideToTheGalaxy.Tests.csproj" />
+  <Project Path="MerchantsGuideToTheGalaxy.Api/MerchantsGuideToTheGalaxy.Api.csproj" Id="1ee136d8-e457-43aa-997e-b188b51fcd15" />
+  <Project Path="MerchantsGuideToTheGalaxy.Domain/MerchantsGuideToTheGalaxy.Domain.csproj" Id="2b27dced-76cf-4b29-ab2e-49bd91b45810" />
+  <Project Path="MerchantsGuideToTheGalaxy.Service/MerchantsGuideToTheGalaxy.Service.csproj" Id="22bb4a38-be9b-4ce8-a59e-b49aefe4c021" />
+</Solution>
