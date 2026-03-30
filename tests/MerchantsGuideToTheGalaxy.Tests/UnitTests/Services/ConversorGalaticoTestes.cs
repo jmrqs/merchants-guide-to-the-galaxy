@@ -1,7 +1,5 @@
 ﻿using MerchantsGuideToTheGalaxy.Domain;
-using MerchantsGuideToTheGalaxy.Domain.Interfaces;
 using MerchantsGuideToTheGalaxy.Service;
-using Xunit.Sdk;
 
 namespace MerchantsGuideToTheGalaxy.Tests.UnitTests.Services
 {
@@ -274,8 +272,6 @@ namespace MerchantsGuideToTheGalaxy.Tests.UnitTests.Services
                 var resultado = await _service.ProcessarConversaoAsync(entrada);
                 Assert.Equal(MensagensDoSistema.NAO_TENHO_IDEIA_DO_QUE_ESTA_FALANDO, resultado.Trim());
             }
-
-
         }
     }
 }
